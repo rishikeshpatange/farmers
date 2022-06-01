@@ -1,0 +1,149 @@
+.bannerBox{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    width: 300px;
+    max-height: 300px;
+    z-index: 1;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    color:var(--text-primary);
+    background: #F0F0F0;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto', sans-serif;
+}
+.bannerBox:hover{
+    color: white;
+}
+.bannerBox::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background:var(--text-green);
+    z-index: -1;
+    transition: 0.9s;
+    transform-origin: bottom ;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+.bannerBox1::before{
+    transform: scaleY(0);
+}
+.bannerBox1:hover:before{
+    transform: scaleY(1);
+}
+.bannerBox:hover h1{
+    color: white;
+}
+.bannerBox h1{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 2px;
+    margin-top: -10px;
+}
+.bannerBox h2{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.box_line{
+    display: flex;
+    width: 100%;
+    height: 1.3px;
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+}
+.bannerBox p{
+    font-size: 1rem;
+    max-width: 400px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+@media screen and (max-width: 800px){
+    .bannerBox{
+        width: 350px;
+        max-height: 300px;
+    }
+    .bannerBox h1{
+        font-size: 2.8rem;
+        font-weight: 200;
+    }
+    .bannerBox h2{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    .box_line{
+        display: flex;
+        width: 100%;
+        height: 1.3px;
+        width: 100%;
+    }
+    .bannerBox p{
+        font-size: 1rem;
+        line-height: 30px;
+        max-width: 350px;
+        font-weight: 500;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .bannerBox{
+        margin: 10px;
+        padding: 20px;
+        width: 100%;
+        width: 350px;
+        max-height: 340px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .bannerBox h1{
+        font-size: 2.5rem;
+        font-weight: 200;
+    }
+    .bannerBox h2{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .box_line{
+        display: flex;
+        width: 100%;
+        height: 1.3px;
+        width: 100%;
+    }
+    .bannerBox p{
+        font-size: 0.9rem;
+        line-height: 30px;
+        max-width: 350px;
+        font-weight: 500;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .bannerBox{
+        max-width: 320px;
+        max-height: 310px;
+    }
+    .bannerBox h1{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .bannerBox h2{
+        font-size: 1.1rem;
+        font-weight: 500;
+        
+    }
+    .bannerBox p{
+        margin-top: 15px;
+        font-size: 0.9rem;
+        line-height: 25px;
+        max-width: 360px;
+        font-weight: 400;
+    }
+
+}

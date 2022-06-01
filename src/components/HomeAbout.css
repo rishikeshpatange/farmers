@@ -1,0 +1,98 @@
+.homeabout{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+.home_about_content h1{
+    font-size: 2.5rem;
+    font-weight: 500
+}
+.home_about_content p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 30px;
+    max-width:600px;
+    color: var(--text-grey);
+}
+.home_about_content button{
+    width: 150px;
+    height: 45px;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 4px;
+    border: 1px transparent;
+    background-color:var(--text-green);
+    transition: 0.5s;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.home_about_content button:hover{
+    background-color:rgb(146, 238, 149);
+}
+
+@media screen and (max-width: 800px) {
+    .home_about_content h1{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    .home_about_content p{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 25px;
+        max-width:400px;
+    }
+    .home_about_content button{
+        width: 120px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    .homeabout{
+       flex-direction: column-reverse;
+       text-align: center;
+    }
+    .home_about_content h1{
+        font-size: 2.3rem;
+        font-weight: 500;
+    }
+    .home_about_content p{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 25px;
+        max-width:600px;
+    }
+    .home_about_content button{
+        width: 120px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .homeabout{
+       flex-direction: column-reverse;
+       text-align: center;
+    }
+    .home_about_content h1{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    .home_about_content p{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 25px;
+        max-width:340px;
+    }
+    .home_about_content button{
+        width: 120px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+    
+}

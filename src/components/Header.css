@@ -1,0 +1,131 @@
+.header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content:left;
+    z-index: 100;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    transition: 0.6s;
+
+}
+.header.active{
+    background:rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.43);
+}
+.header_content{
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+}
+.header_content a{
+    list-style: none;
+    text-decoration: none;
+}
+.header__logo{
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: var(--text-green);
+}
+.header__nav{
+    display: flex;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.header__nav a{
+    text-decoration: none;
+}
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    transition: 0.5s;
+    max-height: 60px;
+}
+
+.header__option h1{
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 2PX;
+    color: var(--text-primary);
+}
+
+.hambuger-menu{
+    display: none;
+}
+/* media querie */
+@media screen and (max-width: 800px){
+    .header{
+        justify-content: space-between;
+        margin-left: 0px;
+     
+    }
+    .header_content{
+        margin-left: 0px;
+    }
+    .hambuger-menu{
+        display: block;
+    }
+    .header__nav{
+        display: none;
+    }
+    .header__option{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        transform-origin: top;
+        transition: 1s;
+    }
+    .header__navPhone{
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        height: 15rem;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        backdrop-filter: blur(7px);
+        top: 60px;
+        z-index: 10;
+        transition: 1s;
+        margin-left: 0px;
+        box-shadow: 0px 1px 12px 2px rgba(0, 0, 0, 0.43)
+        /* box-shadow: 0px 1px 12px 2px rgba(38, 180, 61, 0.43); */
+        
+       
+      }
+      .header__option{
+        margin-left: 1.875rem;
+        margin-right: 1.875rem;
+        max-height: 30px;
+    }
+      .header__option h1{
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 0px;
+    }
+      .header__logo{
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 1.7rem;
+    }
+      .hambuger-menu {
+          margin-top: -3px;
+          margin-right: 5px;
+      }
+}
+@media screen and (max-width: 400px){
+    .header{
+        margin-top: 8px;
+    }
+    .header__logo{
+        width: 50px;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 1.2rem;
+    }
+
+}

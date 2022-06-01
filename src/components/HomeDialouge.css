@@ -1,0 +1,64 @@
+.home_dialouge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(233, 248, 233);
+}
+
+.home_dialouge h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.home_dialouge button{
+    width: 220px;
+    height: 50px;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 4px;
+    border: 1px transparent;
+    background-color:var(--text-green);
+    transition: 0.5s;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 800px){
+    .home_dialouge{
+        display: flex;
+        text-align: center;
+    }
+    
+    .home_dialouge h1{
+        font-size: 1.8rem;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .home_dialouge button{
+        width: 170px;
+        height: 50px;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .home_dialouge{
+        display: flex;
+        text-align: center;
+    }
+    
+    .home_dialouge h1{
+        font-size: 1.3rem;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .home_dialouge button{
+        width: 160px;
+        height: 45px;
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+
+}

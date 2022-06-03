@@ -49,7 +49,7 @@ function Header() {
 
                     <Link to='/contact' >
                         <div className="header__option">
-                            <h1>Register as coustomer</h1>
+                            <h1>Register as customer</h1>
                         </div>
                     </Link>
                 </div>

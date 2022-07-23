@@ -1,5 +1,6 @@
 .fotter{
- 
+    
+    
 }
 .fotter_big{
     display: flex;
@@ -11,6 +12,7 @@
     flex-wrap: wrap;
     background-color: #F5F5F5;
     margin-top: -10px;
+
 }
 .fotter_container{
     display: flex;
@@ -19,19 +21,19 @@
     margin-top: 50px;
 }
 .fotter_container h1{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     margin-bottom: 20px;
  
 }
 .fotter_container p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     max-width: 400px;
     line-height: 20px;
     color: #6a8092;
 }
 .fotter_p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     max-width: 400px;
     line-height: 20px;
     color: #6a8092;
@@ -52,7 +54,7 @@
         text-align: center;
     }
     .fotter_container h1{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .fotter_container h2{
         font-size: 1rem;
@@ -62,7 +64,7 @@
 }
 @media screen and (max-width: 400px){
     .fotter_container h1{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .fotter_container h2{
         font-size: 0.8rem;

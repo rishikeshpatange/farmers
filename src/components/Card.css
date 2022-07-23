@@ -1,101 +1,101 @@
-.bannerBox{
+.bannerBox {
     display: flex;
     flex-direction: column;
     margin: 10px;
     padding: 20px;
     width: 100%;
-    width: 300px;
-    max-height: 300px;
+    max-height: 460px;
+    width: 400px;
     z-index: 1;
-    text-align: center;
     margin-left: 60px;
     margin-right: 60px;
     position: relative;
-    color:var(--text-primary);
-    background: #ffffff;
-    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.25);
+    color: var(--text-primary);
     font-family: 'Roboto', sans-serif;
     transition: 0.8s;
+    background: #FFFFFF;
+    border: 1px solid #86E125;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
 }
-.bannerBox:hover{
+
+.bannerBox:hover {
     color: white;
     background-color: var(--text-green);
 }
-/* .bannerBox::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background:var(--text-green);
-    z-index: -1;
-    transition: 0.9s;
-    transform-origin: bottom ;
-    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
-} */
-/* .bannerBox1::before{
-    transform: scaleY(0);
-}
-.bannerBox1:hover:before{
-    transform: scaleY(1);
-} */
-.bannerBox:hover h1{
+
+.bannerBox:hover h1  {
     color: white;
 }
-.bannerBox h1{
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #000000;
-    margin-bottom: 2px;
-    margin-top: -10px;
+.bannerBox:hover h2  {
+    color: #a5ff46;
 }
-.bannerBox h2{
+
+.bannerBox h1 {
     font-size: 1.4rem;
     font-weight: 500;
+    color: #666666;
+    margin-top: 10px;
 }
-.box_line{
+
+.bannerBox h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #88F218;
+}
+
+.box_line {
     display: flex;
     width: 100%;
     height: 1.3px;
     background-color: rgb(206, 206, 206);
     width: 100%;
 }
-.bannerBox p{
-    font-size: 1rem;
+
+.bannerBox p {
+    font-size: 0.9rem;
     max-width: 400px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 20px;
+    margin-top: 10px;
+    line-height: 30px;
 }
-@media screen and (max-width: 800px){
-    .bannerBox{
+.card_content{
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .bannerBox {
         width: 350px;
         max-height: 300px;
     }
-    .bannerBox h1{
+
+    .bannerBox h1 {
         font-size: 2.8rem;
-        font-weight: 200;
     }
-    .bannerBox h2{
+
+    .bannerBox h2 {
         font-size: 1.6rem;
-        font-weight: 500;
     }
-    .box_line{
+
+    .box_line {
         display: flex;
         width: 100%;
         height: 1.3px;
         width: 100%;
     }
-    .bannerBox p{
+
+    .bannerBox p {
         font-size: 1rem;
         line-height: 30px;
         max-width: 350px;
-        font-weight: 500;
     }
 
 }
-@media screen and (max-width: 600px){
-    .bannerBox{
+
+@media screen and (max-width: 600px) {
+    .bannerBox {
         margin: 10px;
         padding: 20px;
         width: 100%;
@@ -104,48 +104,50 @@
         margin-left: 20px;
         margin-right: 20px;
     }
-    .bannerBox h1{
-        font-size: 2.5rem;
-        font-weight: 200;
+
+    .bannerBox h1 {
+        font-size: 1.6rem;
     }
-    .bannerBox h2{
-        font-size: 1.5rem;
-        font-weight: 500;
+
+    .bannerBox h2 {
+        font-size: 1.3rem;
     }
-    .box_line{
+
+    .box_line {
         display: flex;
         width: 100%;
         height: 1.3px;
         width: 100%;
     }
-    .bannerBox p{
+
+    .bannerBox p {
         font-size: 0.9rem;
         line-height: 30px;
         max-width: 350px;
-        font-weight: 500;
     }
 
 }
-@media screen and (max-width: 400px){
-    .bannerBox{
-        max-width: 320px;
-        max-height: 310px;
+
+@media screen and (max-width: 400px) {
+    .bannerBox {
+        max-width: 280px;
+        height: 290px;
     }
-    .bannerBox h1{
+
+    .bannerBox h1 {
         font-size: 2rem;
-        font-weight: 400;
     }
-    .bannerBox h2{
+
+    .bannerBox h2 {
         font-size: 1.1rem;
-        font-weight: 500;
-        
+
     }
-    .bannerBox p{
+
+    .bannerBox p {
         margin-top: 15px;
         font-size: 0.9rem;
         line-height: 25px;
         max-width: 360px;
-        font-weight: 400;
     }
 
 }

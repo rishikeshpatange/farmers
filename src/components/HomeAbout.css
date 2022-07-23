@@ -86,6 +86,7 @@
         font-size: 1.1rem;
     }
     
+    
 }
 @media screen and (max-width: 400px) {
     .homeabout{
@@ -106,6 +107,10 @@
         width: 120px;
         height: 40px;
         font-size: 1.1rem;
+    }
+    .home_about_circle{
+       display: none;
+    
     }
     
 }

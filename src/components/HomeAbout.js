@@ -27,8 +27,8 @@ function HomeAbout() {
             <motion.h1 variant={circle_animation}
       initial="initial"
       animate="animate">About Us</motion.h1>
-            <p>Lorem ips
-             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, expedita? um dolor sit amet consectetur adipisicing elit. Magni ratione rem aperiam beatae totam quo inventore expedita quisquam ipsa. Quae!</p>
+            <p>We make it easy to grow organic, high quality crops with less tillage. With our optimal crop recipe, organic production and state-of-the-art technological systems, we deliver high value produce to your door step.</p>
+            {/* <p>The world has a big enough food safety problem with the current system, but the food supply is also not enough to feed the world. We are creating a better answer to these problems. Our technology solution helps farmers become more profitable while growing better quality food.</p> */}
             <button>Know More</button>
         </div>
         <div className="home_about_img">

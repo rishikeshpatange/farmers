@@ -1,0 +1,123 @@
+.CustomerRegister{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.CustomerRegister h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--text-green);
+}
+.CustomerRegister p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+.input_container{
+    display: flex;
+    margin-top: 20px;
+}
+.input_container input{
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.form_btn{
+    margin-top: 40px;
+    border: navajowhite;
+    height: 40px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 500;
+    background: var(--text-light-green);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+@media screen and (max-width: 800px){
+    .CustomerRegister h1{
+        font-size: 2.3rem;
+        font-weight: 500;
+        max-width: 450px;
+        text-align: center;
+    }
+    .CustomerRegister p{
+        font-size: 1rem;
+        max-width: 450px;
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    .input_container{
+        display: flex;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .input_container input{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+        font-weight: 300;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .form_btn{
+        height: 40px;
+        width: 160px;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .CustomerRegister h1{
+        font-size: 1.6rem;
+        font-weight: 500;
+        max-width: 340px;
+    }
+    .CustomerRegister p{
+        font-size: 0.9rem;
+        max-width: 320px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .input_container{
+        display: flex;
+        margin-top: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .input_container input{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 1.3rem;
+        font-weight: 300;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .form_btn{
+        height: 40px;
+        width: 160px;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+
+}

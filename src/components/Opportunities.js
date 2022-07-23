@@ -6,33 +6,48 @@ function Opportunities() {
     return (
         <div className='opportunities'>
             <div className="opportunities_content">
-                <h1>Creating opportunities for everyone</h1>
-                <p>We are the first platform enabling increased benefits for farmers, retailers, and consumers.</p>
+                <div className='opportunities_content_line'>
+                    <h1>How it Works?</h1>
+                    <span className='opportunities_line'></span>
+                </div>
+                <p>Dares Agro helps farmers to grow their yields with state of the art precision technology.</p>
             </div>
-            <div className="card_row">
+            <div className="card_row" data-aos="fade-left" >
                 <Card
-                    num="1"
-                    title="Benifits for farmer"
-                    point1="lorem ispium"
-                    point2="lorem ispium"
-                    point3="lorem ispium"
-                    point4="lorem ispium"
+                    num="01"
+                    title="Evaluate the land"
+                    discription="Our team of Experts will visit your farm and evaluate the current state of the land. This includes taking note of any problems or issues with the land and suggesting possible solutions."
+
                 />
                 <Card
-                    num="1"
-                    title="Benifits for farmer"
-                    point1="lorem ispium"
-                    point2="lorem ispium"
-                    point3="lorem ispium"
-                    point4="lorem ispium"
+                    num="02"
+                    title="Suggest crops to be grown"
+                    discription="After assessing the land, we will suggest crops to be grown. We will also provide you with information on how these crops can be best managed and produced."
+
+                />
+            </div>
+            <div className="card_row"
+                data-aos="fade-right">
+                <Card
+
+                    num="03"
+                    title="Improve soil quality"
+                    discription="We work to improve soil quality by using non-pesticide methods and installing state-of-the-art technology. This helps to increase crop yields and improve the overall quality of the soil."
+
                 />
                 <Card
-                    num="1"
-                    title="Benifits for farmer"
-                    point1="lorem ispium"
-                    point2="lorem ispium"
-                    point3="lorem ispium"
-                    point4="lorem ispium"
+                    num="04"
+                    title="Implement the plan"
+                    discription="We will help you to implement the recommended improvements"
+
+                />
+            </div>
+            <div className="card_row" data-aos="fade-left">
+                <Card
+                    num="05"
+                    title="Supply chain management"
+                    discription="We will help to manage the entire supply chain from planting through delivery to end consumer"
+
                 />
             </div>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -43,34 +58,45 @@ function Opportunities() {
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <Card
-                    num="1"
-                    title="Benifits for farmer"
-                    point1="lorem ispium"
-                    point2="lorem ispium"
-                    point3="lorem ispium"
-                    point4="lorem ispium"
-                />
+                        <Card
+                            num="01"
+                            title="Evaluate the land"
+                            discription="Our team of Experts will visit your farm and evaluate the current state of the land. This includes taking note of any problems or issues with the land and suggesting possible solutions."
+
+                        />
                     </div>
                     <div class="carousel-item">
-                    <Card
-                    num="1"
-                    title="Benifits for farmer"
-                    point1="lorem ispium"
-                    point2="lorem ispium"
-                    point3="lorem ispium"
-                    point4="lorem ispium"
-                />
+                        <Card
+                            num="02"
+                            title="Suggest crops to be grown"
+                            discription="After assessing the land, we will suggest crops to be grown. We will also provide you with information on how these crops can be best managed and produced."
+
+                        />
                     </div>
                     <div class="carousel-item">
-                    <Card
-                    num="1"
-                    title="Benifits for farmer"
-                    point1="lorem ispium"
-                    point2="lorem ispium"
-                    point3="lorem ispium"
-                    point4="lorem ispium"
-                />
+                        <Card
+
+                            num="03"
+                            title="Improve soil quality"
+                            discription="We work to improve soil quality by using non-pesticide methods and installing state-of-the-art technology. This helps to increase crop yields and improve the overall quality of the soil."
+
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <Card
+                            num="04"
+                            title="Implement the plan"
+                            discription="We will help you to implement the recommended improvements"
+
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <Card
+                            num="05"
+                            title="Supply chain management"
+                            discription="We will help to manage the entire supply chain from planting through delivery to end consumer"
+
+                        />
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -82,6 +108,8 @@ function Opportunities() {
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+
+
 
         </div>
     )

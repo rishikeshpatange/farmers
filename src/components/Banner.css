@@ -9,32 +9,32 @@
 .banner_content h1{
     font-size: 2.3rem;
     font-weight: 500;
-    max-width:700px;
+    max-width:740px;
     line-height: 60px;
 }
 .banner_content p{
     font-size: 1.1rem;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 35px;
     max-width:600px;
 }
 .banner_content button{
-    width: 180px;
-    height: 50px;
-    font-size: 1.2rem;
+    width: 160px;
+    height: 40px;
+    font-size: 1.1rem;
     color: white;
     border-radius: 4px;
     border: 1px transparent;
     background-color:var(--text-green);
     transition: 0.5s;
     font-weight: 500;
+    margin-top: 20px;
 }
 .banner_content button:hover{
     background-color:rgb(146, 238, 149);
 }
 @media screen and (max-width: 800px){
-    .banner{
-    }
+ 
     .banner_content h1{
         font-size: 1.6rem;
         font-weight: 500;
@@ -87,16 +87,17 @@
         justify-content: center;
     }
     .banner_content h1{
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: 500;
         max-width:400px;
-        line-height: 35px;
+        line-height: 30px;
     }
     .banner_content p{
         font-size: 1rem;
         font-weight: 400;
         line-height: 25px;
         max-width:600px;
+        margin-top: 20px;
     }
     .banner_content button{
         width: 240px;

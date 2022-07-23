@@ -1,16 +1,22 @@
-import React from 'react';
-import "./Card.css"
+import React, { useEffect } from 'react';
+import "./Card.css";
+import "aos/dist/aos.css";
+import Aos from 'aos';
 
-function Card({num, title, point1, point2, point3, point4}) {
+function Card({ num, title, discription }) {
+
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
+
   return (
     <div className='bannerBox bannerBox1'>
-           <h1 >{num}</h1>
-        <h2>{title}</h2>
-        <p>{point1}</p>
-        <p>{point2}</p>
-        <p>{point3}</p>
-        <p>{point4}</p>
-    
+      <div className='card_content'>
+      <h1 >{num}</h1>
+      <h2>{title}</h2>
+      <p>{discription}</p>
+      </div>
+
     </div>
   )
 }

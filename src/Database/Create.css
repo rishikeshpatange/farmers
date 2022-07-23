@@ -1,0 +1,143 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    height: 100vh;
+
+}
+.login_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.login_container P{
+    font-size: 1rem;
+    color: var(--text-dark-grey);
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.login_container h1{
+    font-size: 2.3rem;
+    color: var(--text-light-green);
+    font-weight: 400;
+}
+.create_account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 50px;
+}
+.create_account input{
+    margin-bottom: 30px;
+    border-radius: 6px;
+    height: 40px;
+    width: 300px;
+    border: 0.1px solid var(--text-light-grey);
+    font-size: 0.8rem;
+    padding: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.07));
+}
+.create_account button{
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    border-radius: 6px;
+    color: var(--text-white);
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: var(--text-light-green);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.07));
+}
+.create_account p{
+    font-size: 1rem;
+    margin-top: 20px;
+    font-weight: 400;
+    color: var(--text-primary);
+}
+.create_account p span{
+    color: var(--text-light-green);
+}
+@media screen and (max-width: 600px){
+    .login_container{
+        width: 400px;
+        height: 400px;
+    }
+    .login_container P{
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+    .login_container h1{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .create_account input{
+        margin-bottom: 30px;
+        border-radius: 6px;
+        height: 40px;
+        width: 300px;
+        font-size: 0.8rem;
+        padding: 20px;
+    }
+    .create_account button{
+        height: 40px;
+        width: 300px;
+        font-size: 1.1rem;
+    }
+    .create_account p{
+        font-size: 0.9rem;
+        width: 240px;
+        margin-top: 20px;
+        font-weight: 400;
+    }
+    .create_account p span{
+        color: var(--text-light-green);
+    }
+
+}
+@media screen and (max-width: 400px){
+    .login_container{
+        width: 340px;
+        height: 450px;
+    }
+    .login_container P{
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+    .login_container h1{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .create_account input{
+        margin-bottom: 30px;
+        border-radius: 6px;
+        height: 40px;
+        width: 300px;
+        font-size: 0.8rem;
+        padding: 20px;
+    }
+    .create_account button{
+        height: 40px;
+        width: 300px;
+        font-size: 1.1rem;
+    }
+    .create_account p{
+        font-size: 0.9rem;
+        width: 240px;
+        margin-top: 20px;
+        font-weight: 400;
+    }
+    .create_account p span{
+        color: var(--text-light-green);
+    }
+
+}

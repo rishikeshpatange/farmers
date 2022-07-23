@@ -11,7 +11,7 @@ function Fotter() {
 
             <div className="fotter_container">
                 <div className="fotter_tittle">
-                    <h1>LOGO</h1>
+                    <h1>DaresAgro</h1>
                     <p>About Us</p>
                 </div>
                 <div className="fotter_content">
@@ -20,7 +20,7 @@ function Fotter() {
                     <p>Media</p>
 
                 </div>
-                <div className="fotter_content">
+                {/* <div className="fotter_content">
                     <h1>Connect With Us</h1>
                     <span className='social_media'>
                         <span>
@@ -35,7 +35,7 @@ function Fotter() {
                     
                     </span>
 
-                </div>
+                </div> */}
             </div>
             <div className='fotter_right'>
                 <span className='line'></span>
